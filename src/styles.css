@@ -1,0 +1,38 @@
+.dropDown .toggle {
+  max-height: 250px;
+  transition: max-height 500ms ease-in-out;
+  border: 2px solid black;
+}
+
+/* custom style */
+.dropDown {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dropDown ul {
+  box-sizing: border-box;
+  margin: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+  border: 2px solid transparent;
+
+  /* transition */
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 500ms ease-in-out, border 0ms ease-in-out 500ms;
+}
+.dropDown ul > a {
+  padding: 7px;
+  text-decoration: none;
+  color: #000;
+}
+.btn {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+}
