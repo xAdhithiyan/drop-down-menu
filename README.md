@@ -13,6 +13,6 @@ npm i @xadhithiyan/drop-down-menu
 import dropdown from '/node_modules/@xadhithiyan/drop-down-menu/src/script.js'
 dropdown(parentDiv, menuValue, dropDownObject){}
 ```
-`parentDiv`:  the div inside which the drop down will be appended <br> 
-`menuValue`: the drop down title value <br>
-`dropDownObjects` an object with subtitles as keys and respective links as values <br>  
+`parentDiv`:  the div inside which the drop down will be appended <br> <br>
+`menuValue`: the drop down title value <br> <br>
+`dropDownObjects` an object with subtitles as keys and respective links as values <br> <br>
