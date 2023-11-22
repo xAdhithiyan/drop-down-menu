@@ -1,0 +1,22 @@
+{
+  "name": "@xadhithiyan/drop-down-menu",
+  "version": "1.0.0",
+  "description": "to create drop down menu",
+  "main": "src/script.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xAdhithiyan/drop-down-menu.git"
+  },
+  "author": "Adhithiyan B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xAdhithiyan/drop-down-menu/issues"
+  },
+  "homepage": "https://github.com/xAdhithiyan/drop-down-menu#readme"
+}

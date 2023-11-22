@@ -1,3 +1,5 @@
+import './styles.css';
+
 function dropDown(parentDiv, menuValue, dropDownObject) {
   /* a parent div with a button and a list as childs */
   let dropDownDiv = createDropDown(menuValue, dropDownObject);
@@ -30,5 +32,4 @@ function createDropDown(btnValue, dropDownObject) {
   return dropDownDiv;
 }
 
-let body = document.querySelector('body');
-dropDown(body, 'btn', { a: '#', b: '#' });
+export default dropDown;
